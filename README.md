@@ -44,7 +44,16 @@ By the end of this phase, I will have: sysmon installed on windows, splunk unive
 
 ## Phase 4: Attack + Detect + Investigate
 
+*Note:* 
+- cmd to get splunk forwarding running from Windows (sudo opt/splunk/bin/splunk start)
+- or windows+r services.msc -> SplunkForwarder -> right click Running
 Goals
 * generate realistic malicious activity from Kali
 * detect it in Splunk
 * practice analyzing like a SOC analyst
+
+4 Mini Labs -> each one = a portfolio bullet point
+* Network Recon Detection
+* Brute Force Detection
+* Suspicious PowerShell Activity
+* Persistence / Process Investigation
